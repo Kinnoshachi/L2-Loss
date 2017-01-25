@@ -9,7 +9,7 @@ The first argument is training data, second argument is test data, third argumen
 
 Linear seperation using L2 Loss:
 
-<img src="ls.png" width="300" height="350" />
+<img src="ls.png" width="500" height="350" />
 
 ROC Plots:
 
