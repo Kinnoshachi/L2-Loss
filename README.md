@@ -1,4 +1,5 @@
 # L2 Loss function
+$ \sum_{\forall i}{x_i^{2}} $
 Implementation of the L2 Loss function on linear seperable data. (Test using python 2.7)
 
 Executing the script:
