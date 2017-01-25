@@ -1,6 +1,5 @@
 # L2 Loss function
 
-$ L\\\_2(w)=\\\\sum\\\_{i=1}^{N}(1-z\\\_i)^2 $ where *z*<sub>*i*</sub> = *y*<sub>*i*</sub>*f*(*x*<sub>*i*</sub>; *w*)
 
 Implementation of the L2 Loss function on linear seperable data. (Test using python 2.7)
 
