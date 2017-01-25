@@ -1,8 +1,7 @@
 import numpy as np
 from matplotlib import pyplot as plt
 
-def f(x,w,b): # do not change this line!
-    # implement the function f() here
+def f(x,w,b): 
     # x is a N-by-D numpy array
     # w is a D dimensional numpy array
     # b is a scalar
@@ -13,16 +12,14 @@ def f(x,w,b): # do not change this line!
 
 
 
-def sigmoid(t): # do not change this line!
-    # implement the sigmoid here
+def sigmoid(t): 
     # t is a N dimensional numpy array
     # Should return a N dimensional numpy array
     return 1.0/(1.0+ np.nan_to_num(np.exp(-t)))
 
 
 
-def l2loss(x,y,w,b): # do not change this line!
-    # implement the l2loss here
+def l2loss(x,y,w,b): 
     # x is a N-by-D numpy array
     # y is a N dimensional numpy array
     # w is a D dimensional numpy array
@@ -35,8 +32,7 @@ def l2loss(x,y,w,b): # do not change this line!
     return [loss,dw,db]
 
 
-def minimize_l2loss(x,y,w,b, num_iters=1000, eta=0.001): # do not change this line!
-    # implement the gradient descent here
+def minimize_l2loss(x,y,w,b, num_iters=1000, eta=0.001): 
     # x is a N-by-D numpy array
     # y is a N dimensional numpy array
     # w is a D dimensional numpy array
