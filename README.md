@@ -2,10 +2,6 @@
 
 Implementation of the L2 Loss function on linear seperable data. (Test using python 2.7)
 
-\begin{equation}
-  a^2+b^2=c^2
-\end{equation}
-
 Executing the script:
 ```sh
 $ python main.py data/linear_data_train.pickle.gz data/linear_data_test.pickle.gz 100 .01
