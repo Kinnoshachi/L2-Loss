@@ -9,10 +9,10 @@ The first argument is training data, second argument is test data, third argumen
 
 Linear seperation using L2 Loss:
 
-<img src="ls.png" width="200" height="350" />
+<img src="ls.png" width="300" height="350" />
 
 ROC Plots:
 
 This is linear seperable dataset, the AUC is expected to be 1 as shown below:
 
-<img src="roc.png" width="200" height="350" />
+<img src="roc.jpg" width="300" height="350" />
